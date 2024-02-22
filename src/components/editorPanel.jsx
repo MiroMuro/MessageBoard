@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { postMessage } from "../reducers/MessageReducer.js";
+import { postMessage } from "../reducers/messageReducer.js";
 import { useDispatch, useSelector } from "react-redux";
 import store from "../store.js";
 const EditorPanel = () => {

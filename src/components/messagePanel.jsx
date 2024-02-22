@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { getAllChannelsMessages } from "../reducers/MessageReducer";
+import { getAllChannelsMessages } from "../reducers/messageReducer";
 const MessagePanel = () => {
   const dispatch = useDispatch();
 

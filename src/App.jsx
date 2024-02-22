@@ -3,7 +3,7 @@ import EditorPanel from "./components/editorPanel";
 import MessagePanel from "./components/messagePanel";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { getAllChannelsMessages } from "./reducers/MessageReducer";
+import { getAllChannelsMessages } from "./reducers/messageReducer";
 
 const App = () => {
   const dispatch = useDispatch();
