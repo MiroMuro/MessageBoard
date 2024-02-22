@@ -86,3 +86,10 @@ http://localhost:3001/<channelId>
 
 Built by Miro Laukkanen for AlphaSense.
 contact me at: miro.laukkanen44@gmail.com
+
+#DEMO VIDEO 👍
+
+
+
+https://github.com/MiroMuro/MessageBoard/assets/95426094/10a79772-9a9b-4906-940b-82f289f51f7c
+
