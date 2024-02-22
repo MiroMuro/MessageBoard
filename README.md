@@ -12,12 +12,11 @@ Message board single-page web application prototype.
 # DESCRIPTION
 
 The user of this app can append messages to three different channels without authentication.
-The App fulfills the technical spesifications requested in the assingnment PDF. Only one defect remains.
 
 # DEFECT
 
 If two or more users have the web-app open and one user types text into the input field and submits it, any text on the input fields of
-other users will be also wiped clean. I know users were only specified to see other users messages, but i figured this defect was worth mentioning.
+other users will be also wiped clean. 
 
 # INSTALLATION
 
@@ -87,3 +86,10 @@ http://localhost:3001/<channelId>
 
 Built by Miro Laukkanen for AlphaSense.
 contact me at: miro.laukkanen44@gmail.com
+
+#DEMO VIDEO 👍
+
+
+
+https://github.com/MiroMuro/MessageBoard/assets/95426094/10a79772-9a9b-4906-940b-82f289f51f7c
+
