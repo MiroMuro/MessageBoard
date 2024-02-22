@@ -1,0 +1,98 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 1080px;
+  height: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.editorPanel {
+  width: 30%;
+  height: 90%;
+  margin: auto;
+  border: 1px solid rgb(100, 99, 99);
+  background-color: #ccc6c6;
+}
+.editorPanelText {
+  background-color: rgb(92, 126, 219);
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+.messageInput {
+  margin: 10px 10px 10px 10px;
+  padding-right: 25px;
+}
+.submitButton {
+  color: white;
+  background-color: rgb(92, 126, 219);
+  border-radius: 5px;
+  border: 0px;
+  padding: 3px 8px 3px 8px;
+  cursor: pointer;
+}
+.submitButton:disabled {
+  color: rgb(168, 166, 166);
+  background-color: rgb(100, 100, 102);
+  border-radius: 5px;
+  border: 0px;
+  padding: 3px 8px 3px 8px;
+  cursor: no-drop;
+}
+.headerContainer {
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(92, 126, 219);
+}
+.headerButton {
+  margin-left: 30px;
+  border-radius: 6px;
+  border: 0px;
+  color: aliceblue;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+.headerButton:hover {
+  background-color: rgb(30, 78, 212);
+}
+.headerButton:focus {
+  background-color: rgb(16, 0, 161);
+}
+.headerButton::selection {
+  background-color: rgb(30, 78, 212);
+}
+.channelNotSelectedDiv {
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  width: 300px;
+  margin: auto;
+}
+.messagePanelContainer {
+  height: 600px;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+.channelNameDiv {
+  color: white;
+  background-color: rgb(92, 126, 219);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.messageListContainer {
+  height: 80%;
+  border: 0px;
+  background-color: aliceblue;
+  overflow-y: auto;
+  padding-left: 10px;
+  margin: 10px;
+}
+.message {
+  border-top: 1px solid black;
+  margin: 5px;
+  padding: 8px;
+  text-align: left;
+}
