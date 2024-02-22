@@ -4,7 +4,7 @@ import {
   initMessageListener,
 } from "redux-state-sync";
 import channelReducer from "./reducers/channelReducer";
-import messageReducer from "./reducers/MessageReducer";
+import messageReducer from "./reducers/messageReducer";
 
 const config = {
   blacklist: ["channel/handleChannelChange"],
